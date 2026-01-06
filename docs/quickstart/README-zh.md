@@ -197,3 +197,78 @@ git status
 ```
 
 ### 11. 远程备份好处
+
+**为什么远程仓库是必不可少的：**
+- **数据安全**：代码在云端备份
+- **协作**：轻松的团队协调
+- **部署**：CI/CD集成
+- **作品集**：向潜在客户/雇主展示您的工作
+
+**GitHub/GitLab功能：**
+- **拉取/合并请求**：代码审查和协作
+- **问题**：错误跟踪和功能请求
+- **操作**：自动化测试和部署
+- **页面**：文档/演示的免费托管
+
+## 📋 快速入门检查清单
+
+### 开始编码之前：
+- [ ] 创建GitHub/GitLab账户
+- [ ] 安装和配置Git
+- [ ] 创建远程仓库
+- [ ] 编写初始项目规范
+- [ ] 设置开发环境
+
+### 开发期间：
+- [ ] 将初始设置推送到远程
+- [ ] 选择适当的分支策略
+- [ ] 频繁提交并使用描述性消息
+- [ ] 推送前彻底测试
+- [ ] 使用DevTools MCP进行自动化测试
+
+### 对于生产项目：
+- [ ] 始终使用功能分支
+- [ ] 创建拉取/合并请求以进行审查
+- [ ] 在预发布环境中测试
+- [ ] 部署时制定回滚计划
+- [ ] 密切监控生产环境
+
+## 🚀 下一步
+
+您现在已准备好开始vibecoding！通过适当的Git工作流程和AI辅助，您可以更快、更安全、更高效地开发。
+
+---
+
+## 相关文档
+
+**入门：**
+- [介绍与哲学](../introduction/README-zh.md) - 理解Vibecoding
+- [核心技术](../core-technologies-zh.md) - Astro、Tailwind、Cloudflare技术栈
+
+**开发工具：**
+- [开发工具](../development-tools/README-zh.md) - 基本工具和设置
+- [AI模型提供商](../ai-model-providers/README-zh.md) - 选择您的AI助手
+- [MCP服务器](../development-tools/mcp-servers/README-zh.md) - 扩展AI功能
+
+**工作流程与过程：**
+- [工作流程概述](../workflow/README-zh.md) - 完整开发过程
+- [阶段1：规划](../workflow/phase-1-planning-zh.md) - 项目规范
+- [阶段2：开发](../workflow/phase-2-development-zh.md) - 实施指南
+- [上下文管理](../context-management/README-zh.md) - 优化AI交互
+- [提示指南](../prompting/README-zh.md) - 有效的AI通信
+
+**质量与标准：**
+- [质量标准](../quality-standards/README-zh.md) - 可访问性、SEO、性能
+- [故障排除](../troubleshooting/README-zh.md) - 常见问题和解决方案
+
+**部署与托管：**
+- [托管工具](../hosting-tools/README-zh.md) - Cloudflare平台指南
+- [阶段4：部署](../workflow/phase-4-deployment-zh.md) - 进入生产环境
+
+---
+
+**记住：** Git是您在AI驱动开发中的最好朋友。版本控制和AI辅助的结合创造了不可阻挡的开发工作流程！
+
+---
+
+返回索引：[顶层README](../../README-zh.md)

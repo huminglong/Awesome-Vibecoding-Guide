@@ -98,3 +98,35 @@
 **快速参考:**
 - [交叉参考指南](docs/cross-reference-zh.md) → 在相关主题之间导航并找到连接
 - [术语表](docs/glossary-zh.md) → 关键术语和定义
+- [人类上下文调试](docs/troubleshooting/human-context-debugging-zh.md) → 解决95%的调试问题
+- [质量门控检查清单](docs/quality-standards/quality-gates-zh.md) → 发布前质量验证
+- [质量导向提示](docs/prompting/quality-focused-prompts-zh.md) → 专业AI输出
+
+**速查表:**
+- [Git命令](docs/development-tools/cheat-sheets/git-commands-zh.md) → 基本Git操作
+- [Cloudflare CLI](docs/development-tools/cheat-sheets/cloudflare-cli-zh.md) → Wrangler命令参考
+- [常用提示](docs/development-tools/cheat-sheets/common-prompts-zh.md) → 频繁使用的AI提示
+- [调试命令](docs/development-tools/cheat-sheets/debugging-commands-zh.md) → 快速调试参考
+
+**贡献:**
+- [贡献指南](docs/contributing-zh.md) → 如何为此指南做贡献
+
+---
+
+## 🫶 支持作者
+
+如果您觉得本指南有帮助并想支持我的工作，请考虑使用这些推荐链接获取我推荐的工具：
+- **[Synthetic.new](https://synthetic.new/?referral=IDyp75aoQpW9YFt)** - 以隐私为先的AI提供商，提供20多个前沿模型。标准计划每月20美元（使用推荐链接可节省10美元），专业计划每月60美元（使用推荐链接可节省20美元）
+- **[GLM Coding Plan](https://z.ai/subscribe?ic=CUEFJ9ALMX)** - 高性价比提供商，提供慷慨的5小时使用窗口。Lite版每月3美元（大多数用户），Pro版每月15美元（重度使用）。[查看当前定价](https://z.ai/subscribe?ic=CUEFJ9ALMX)
+
+使用这些链接有助于我继续维护和扩展本指南，同时您也可以获得优秀工具的访问权限。不过没有压力——本指南将始终保持免费和开源！⭐
+
+## Star历史
+
+<a href="https://www.star-history.com/#ClavixDev/Awesome-Vibecoding-Guide&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ClavixDev/Awesome-Vibecoding-Guide&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ClavixDev/Awesome-Vibecoding-Guide&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ClavixDev/Awesome-Vibecoding-Guide&type=date&legend=top-left" />
+ </picture>
+</a>

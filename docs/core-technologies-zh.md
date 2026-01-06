@@ -98,3 +98,41 @@
 - [客户项目设置](docs/hosting-tools/README-zh.md#recommended-combinations) — 不同项目类型的预配置栈
 
 ## 实施设置检查清单
+
+**第0阶段准备：**
+- [ ] 安装[Zed IDE](docs/development-tools/recommended-tools/zed-zh.md)以获得最佳Astro开发体验
+- [ ] 设置[GLM编码计划](docs/ai-model-providers/glm-coding-plan-zh.md)以获得高性价比的AI辅助
+- [ ] 配置[DevTools MCP](docs/development-tools/mcp-servers/devtools-mcp-zh.md)以进行性能监控
+
+**第2阶段开发：**
+- [ ] 使用[Droid CLI](docs/development-tools/recommended-tools/droid-cli-zh.md)进行组件生成
+- [ ] 集成[Shadcn MCP](docs/development-tools/mcp-servers/shadcn-mcp-zh.md)以获得专业UI组件
+- [ ] 在整个开发过程中使用[DevTools MCP](docs/development-tools/mcp-servers/devtools-mcp-zh.md)进行测试
+
+**第4阶段部署：**
+- [ ] 通过[Cloudflare Pages](docs/hosting-tools/cloudflare-pages-zh.md)部署静态托管
+- [ ] 设置[Cloudflare Functions](docs/hosting-tools/cloudflare-workers-zh.md)用于后端逻辑
+- [ ] 使用[DevTools MCP](docs/development-tools/mcp-servers/devtools-mcp-zh.md)监控性能
+
+---
+
+## 相关文档
+
+**质量标准：**
+- [性能标准](docs/quality-standards/performance-zh.md) - Core Web Vitals优化
+- [SEO标准](docs/quality-standards/seo-zh.md) - 搜索引擎优化
+- [可访问性标准](docs/quality-standards/accessibility-zh.md) - WCAG合规性
+
+**开发工作流程：**
+- [工作流程阶段](docs/workflow/README-zh.md) - 完整开发过程
+- [提示指南](docs/prompting/README-zh.md) - AI辅助开发技术
+- [上下文管理](docs/context-management/README-zh.md) - 优化AI交互
+
+**业务考虑：**
+- [商业模式](docs/business-model/README-zh.md) - 定价和货币化策略
+- [托管工具](docs/hosting-tools/README-zh.md) - 部署成本优化
+
+---
+
+结论
+Astro + Tailwind CSS + Cloudflare Pages是Vibecoding的实用、高速度技术栈。它让您能够发布在Core Web Vitals上得分良好的页面，保持CSS和JavaScript负载小，并简化托管和部署。

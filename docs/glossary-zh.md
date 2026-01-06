@@ -198,3 +198,292 @@
 **Jamstack**: 一种Web开发架构，强调JavaScript、API和标记（静态文件），产生快速、安全和可扩展的网站。
 
 **JWT (JSON Web Token)**: 在各方之间以JSON对象形式安全传输信息的方式，通常用于Web应用程序中的用户身份验证。
+
+**Middleware（中间件）**: 位于不同应用程序组件之间的软件，通常用于身份验证、日志记录或在到达主应用程序之前处理请求。
+
+**Next.js**: 一个流行的React框架，支持服务器端渲染、静态站点生成和API路由，用于构建全栈Web应用程序。
+
+**React**: 一个用于使用可重用组件构建用户界面的JavaScript库，由Meta（Facebook）维护。
+
+**SSG (Static Site Generation - 静态站点生成)**: 在构建时而不是用户请求时将所有网页构建为静态HTML文件的过程，导致更快的加载速度。
+
+**SSR (Server-Side Rendering - 服务器端渲染)**: 为每个请求在服务器上生成网页HTML，允许动态内容同时改善SEO和初始加载时间。
+
+**Svelte**: 一个现代JavaScript框架，在构建时将组件编译为高效的原生JavaScript，导致更小的包大小。
+
+**Tailwind CSS**: 一个实用优先的CSS框架，提供小型、可组合的类来直接为HTML设置样式，实现快速UI开发而无需编写自定义CSS。
+→ [了解更多: 核心技术](core-technologies-zh.md)
+
+**Turnstile**: Cloudflare的隐私优先的CAPTCHA替代方案，用于保护网站免受垃圾邮件和机器人攻击。
+
+**WebSocket**: 一种通信协议，在Web浏览器和服务器之间提供全双工（双向）通信，实现实时功能。
+
+---
+
+## 软件开发实践
+
+**Acceptance Criteria（验收标准）**: 功能或任务必须满足的特定条件，才能被认为完成并可接受。
+
+**ADR (Architecture Decision Record - 架构决策记录)**: 记录重要架构决策、其上下文和后果以供将来参考的文档。
+
+**API (Application Programming Interface - 应用程序编程接口)**: 允许不同软件应用程序相互通信的规则和协议集。
+
+**Branch（分支）**: 在Git中，一个独立的开发线，允许您在不影响主代码库的情况下开发功能。
+
+**CI/CD (Continuous Integration/Continuous Deployment - 持续集成/持续部署)**: 自动化测试代码更改并将其部署到生产环境的过程，减少手动工作和错误。
+
+**Code Review（代码审查）**: 让其他开发者检查您的代码以确保质量、错误和符合标准的实践，然后才将其合并。
+
+**Commit（提交）**: 在Git中，使用描述性消息保存代码更改快照。
+
+**Debugging（调试）**: 查找和修复代码中的错误或意外行为的过程。
+
+**Deployment（部署）**: 将代码发布到用户可以访问的服务器或平台的过程。
+
+**Edge Case（边缘情况）**: 可能导致错误的不寻常或罕见情况，如果在代码中未正确处理。
+
+**Feature Branch（功能分支）**: 专门为开发单个功能而创建的Git分支，将其与主代码库隔离直到完成。
+
+**Main Branch（主分支）**: 包含生产就绪代码的主要Git分支（通常称为"main"或"master"）。
+
+**Merge Request / Pull Request（合并请求/拉取请求）**: 将代码更改从一个Git分支合并到另一个分支的请求，通常包括代码审查以获得批准。
+
+**Migration（迁移）**: 更新数据库结构（模式）或将数据从一个系统移动到另一个系统的脚本或过程。
+
+**MVP (Minimum Viable Product - 最小可行产品)**: 具有足够功能以可用并为早期用户提供价值的最简单产品版本。
+
+**PRD (Product Requirements Document - 产品需求文档)**: 描述产品应该做什么、谁将使用它以及它解决什么问题的文档。
+
+**Push（推送）**: 在Git中，将本地代码更改上传到远程仓库（如GitHub）。
+
+**Refactoring（重构）**: 重构现有代码以提高其质量、可读性或性能，而不改变其功能。
+
+**Regression（回归）**: 代码更改意外破坏以前正常工作的现有功能。
+
+**Remote Repository（远程仓库）**: 存储在服务器（如GitHub）上的Git仓库版本，允许备份和协作。
+
+**REST API**: 使用HTTP方法（GET、POST、PUT、DELETE）与服务器资源交互创建Web API的标准方式。
+
+**Rollback（回滚）**: 将代码恢复到以前版本，通常在部署在生产环境中引起问题时进行。
+
+**SaaS (Software as a Service - 软件即服务)**: 通过互联网作为服务提供的软件，通常通过订阅模式。
+
+**Schema（模式）**: 数据库的结构和组织，定义表、列和关系。
+
+**Serverless（无服务器）**: 一种云计算模型，您编写按需运行的函数而无需管理服务器，仅按执行时间付费。
+
+**Staging Environment（预发布环境）**: 一个与生产环境密切相似的测试环境，用于在向用户发布之前验证更改。
+
+**Technical Debt（技术债务）**: 由于选择快速、简单的解决方案而不是需要更长时间的更好方法而导致的未来返工的隐含成本。
+
+**Unit Test（单元测试）**: 验证单个、小段代码（如函数）在隔离状态下正确工作的测试。
+
+**User Story（用户故事）**: 从最终用户角度描述功能的描述，通常遵循"作为[用户]，我想要[目标]，以便[原因]"的格式。
+
+**Version Control（版本控制）**: 一个系统（如Git），跟踪文件随时间的变化，允许您查看历史记录并恢复到以前的版本。
+
+---
+
+## Core Web Vitals与性能
+
+**Bundle Size（包大小）**: 浏览器必须下载以运行Web应用程序的JavaScript和CSS的总文件大小，影响加载速度。
+
+**CLS (Cumulative Layout Shift - 累积布局偏移)**: 一个Core Web Vitals指标，衡量视觉稳定性 - 页面内容在加载期间意外移动的程度。
+→ [了解更多: 性能标准](quality-standards/performance-zh.md)
+
+**Core Web Vitals (CWV)**: Google的一套衡量网站性能和用户体验的指标，包括加载速度、交互性和视觉稳定性。
+→ [了解更多: 性能标准](quality-standards/performance-zh.md)
+
+**FCP (First Contentful Paint - 首次内容绘制)**: 一个性能指标，衡量屏幕上首次出现内容所需的时间。
+→ [了解更多: 性能标准](quality-standards/performance-zh.md)
+
+**Hydration（水合）**: 通过附加JavaScript事件处理程序和状态使静态HTML页面可交互的过程。
+
+**Lazy Loading（懒加载）**: 延迟加载图像或内容直到需要时（例如，滚动到视图中），改善初始页面加载时间。
+
+**LCP (Largest Contentful Paint - 最大内容绘制)**: 一个Core Web Vitals指标，衡量最大的可见内容元素加载所需的时间。
+→ [了解更多: 性能标准](quality-standards/performance-zh.md)
+
+**PageSpeed**: Google的工具和指标，用于衡量网站性能并提供优化建议。
+→ [了解更多: 性能标准](quality-standards/performance-zh.md)
+
+**Partial Hydration（部分水合）**: 仅加载交互式组件的JavaScript，而不是整个页面，减少初始包大小。
+
+**TTFB (Time To First Byte - 首字节时间)**: 一个性能指标，衡量浏览器从服务器接收第一个数据字节所需的时间。
+
+---
+
+## 文件格式与配置
+
+**Environment Variables（环境变量）**: 与代码分开存储的配置值（如API密钥），通常在.env文件中，用于安全和灵活性。
+
+**JSON (JavaScript Object Notation)**: 用于存储和交换数据的文本格式，使用人类可读的键值对和数组。
+
+**Markdown (.md)**: 一种轻量级文本格式，使用简单符号进行格式化（如#表示标题，*表示列表），作为纯文本易于阅读。
+
+**YAML (YAML Ain't Markup Language)**: 一种人类可读的数据格式，通常用于配置文件，使用缩进来显示结构。
+
+---
+
+## 开发工作流程与工具
+
+**Branch Strategy（分支策略）**: 组织项目中Git分支的计划，如使用功能分支进行开发和主分支进行生产。
+
+**Build Process（构建过程）**: 将源代码转换为可部署应用程序的步骤，包括编译、打包和优化。
+
+**Build Time（构建时间）**: 代码被编译和准备部署的阶段，与用户交互的运行时相对。
+
+**Deployment Script（部署脚本）**: 处理将代码发布到生产服务器过程的自动化命令。
+
+**Hot Reload（热重载）**: 一个开发功能，当您更改代码时自动在浏览器中更新应用程序，而不会丢失状态。
+
+**Local Development（本地开发）**: 在自己的计算机上运行和测试应用程序，然后将其部署到服务器。
+
+**Package Manager（包管理器）**: 一个工具（如npm、yarn或pnpm），用于安装和管理项目的代码库和依赖项。
+
+**Plugin（插件）**: 扩展主要应用程序功能的附加软件，如VS Code扩展。
+
+**Production Environment（生产环境）**: 您的应用程序为真实用户运行的实时服务器/系统。
+
+**Sandbox（沙箱）**: 用于安全测试代码而不影响生产系统的隔离环境。
+
+**Task Breakdown（任务分解）**: 将大型功能分解为更小、可管理的任务，可以单独实现和测试。
+
+**Workflow（工作流程）**: 为高效完成开发任务而遵循的步骤或过程序列。
+
+---
+
+## 安全与身份验证
+
+**API Endpoint（API端点）**: API中执行特定功能的特定URL，如/api/login用于用户身份验证。
+
+**Authentication（身份验证）**: 验证用户身份的过程，通常通过用户名和密码。
+
+**Authorization（授权）**: 确定经过身份验证的用户被允许访问哪些操作或资源。
+
+**CSRF (Cross-Site Request Forgery - 跨站请求伪造)**: 一种安全漏洞，攻击者诱骗用户在他们已认证的网站上执行不需要的操作。
+
+**Hash（哈希）**: 一种单向加密函数，将数据（如密码）转换为无法逆转的固定长度字符串。
+
+**Input Validation（输入验证）**: 检查用户输入以确保其符合预期格式且不包含恶意代码的处理。
+
+**OAuth**: 一种授权标准，允许用户授予应用程序访问其信息的权限，而无需共享密码。
+
+**Password Hashing（密码哈希）**: 将明文密码转换为不可逆的加密字符串，然后将其存储在数据库中。
+
+**Rate Limiting（速率限制）**: 限制用户在时间段内可以向API发出的请求数量，防止滥用。
+
+**Sanitization（净化）**: 通过删除或转义潜在危险字符来清理用户输入。
+
+**Session（会话）**: 用户和应用程序之间的交互期间，通常通过cookie或令牌维护。
+
+**SQL Injection（SQL注入）**: 一种安全漏洞，攻击者通过用户输入插入恶意SQL代码来操纵数据库。
+
+**XSS (Cross-Site Scripting - 跨站脚本)**: 一种安全漏洞，攻击者将恶意脚本注入其他用户查看的网站。
+
+---
+
+## 开发概念
+
+**Abstraction（抽象）**: 在简单接口后面隐藏复杂实现细节，使代码更易于使用和理解。
+
+**Async/Await**: 一种JavaScript语法，用于以更可读、顺序的方式处理异步操作。
+
+**Boilerplate**: 在许多地方需要但实现之间变化不大的标准、重复代码。
+
+**Breaking Change（破坏性更改）**: 导致现有功能停止工作的代码更改。
+
+**Codebase（代码库）**: 项目的完整源代码集合。
+
+**Component（组件）**: 一个可重用的、自包含的代码片段（如按钮或表单），可以在多个地方使用。
+
+**Dependency（依赖项）**: 项目依赖以正常运行的外部代码库或包。
+
+**Design Pattern（设计模式）**: 解决常见编程问题的可重用解决方案，提供经过验证的代码结构方法。
+
+**DRY (Don't Repeat Yourself - 不要重复自己)**: 一个编码原则，强调代码重用以避免重复和维护问题。
+
+**Endpoint（端点）**: 参见 **API Endpoint（API端点）**。
+
+**Fallback（备选方案）**: 当主要方法失败或不可用时使用的替代选项。
+
+**Framework（框架）**: 提供通用功能的结构化代码基础，允许您通过遵循其模式更快地构建应用程序。
+
+**Library（库）**: 为您的项目提供特定功能的预编写代码集合。
+
+**Localhost**: 用于访问在自己计算机上运行的应用程序的地址（通常为http://localhost或127.0.0.1）。
+
+**Monorepo（单体仓库）**: 包含多个相关项目或包的单个仓库，一起管理。
+
+**Namespace（命名空间）**: 组织代码元素（如变量或函数）以避免命名冲突的容器。
+
+**npm (Node Package Manager)**: JavaScript的默认包管理器，用于安装和管理代码库。
+
+**Payload（负载）**: 在API请求或响应中发送的实际数据，不包括头部和元数据。
+
+**Polyfill**: 为不原生支持它的旧浏览器提供现代功能的代码。
+
+**Query（查询）**: 从数据库或API请求数据。
+
+**Repository (Repo)（仓库）**: 代码的存储位置，通常用Git管理，包含所有项目文件及其历史记录。
+
+**Scope（作用域）**: 变量或函数可访问和使用的代码部分。
+
+**SDK (Software Development Kit - 软件开发工具包)**: 用于在特定平台上开发应用程序的工具、库和文档集合。
+
+**Single Responsibility Principle（单一职责原则）**: 一个设计原则，说明每个模块或函数应该只有一个改变的理由。
+
+**Stack（技术栈）**: 项目中使用的技术组合，如"Astro + Tailwind + Cloudflare Pages"。
+
+**Stack Trace（堆栈跟踪）**: 显示导致错误的函数调用序列的报告，用于调试。
+
+**Syntax（语法）**: 编写有效代码的规则和结构。
+
+**Type（类型）**: 数据的分类（如字符串、数字或布尔值），确定可以对其执行的操作。
+
+**TypeScript**: 通过添加可选类型检查扩展JavaScript的编程语言，以获得更好的错误检测。
+
+---
+
+## 缩写快速参考
+
+- **ADR**: 架构决策记录
+- **API**: 应用程序编程接口
+- **BYOK**: 自带密钥
+- **CDN**: 内容分发网络
+- **CI/CD**: 持续集成/持续部署
+- **CLI**: 命令行界面
+- **CLS**: 累积布局偏移
+- **CORS**: 跨源资源共享
+- **CSRF**: 跨站请求伪造
+- **CWV**: Core Web Vitals
+- **DRY**: 不要重复自己
+- **FCP**: 首次内容绘制
+- **IDE**: 集成开发环境
+- **JSON**: JavaScript对象表示法
+- **JWT**: JSON Web Token
+- **LCP**: 最大内容绘制
+- **LLM**: 大语言模型
+- **MCP**: 模型上下文协议
+- **MVP**: 最小可行产品
+- **npm**: Node包管理器
+- **OAuth**: 开放授权
+- **PRD**: 产品需求文档
+- **REST**: 表述性状态转移
+- **ROI**: 投资回报率
+- **SaaS**: 软件即服务
+- **SDK**: 软件开发工具包
+- **SEO**: 搜索引擎优化
+- **SQL**: 结构化查询语言
+- **SSG**: 静态站点生成
+- **SSR**: 服务器端渲染
+- **TTFB**: 首字节时间
+- **UI**: 用户界面
+- **URL**: 统一资源定位符
+- **UX**: 用户体验
+- **XSS**: 跨站脚本
+- **YAML**: YAML Ain't Markup Language
+
+---
+
+返回索引：[顶级README](../README-zh.md)
