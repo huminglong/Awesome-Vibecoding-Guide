@@ -484,5 +484,5 @@
 ---
 
 **相关：**
-- [商业模式](the-model.md) - 完整商业模式概述
-- [价值主张](value-proposition.md) - 如何向客户证明您的定价合理性
+- [商业模式](the-model-zh.md) - 完整商业模式概述
+- [价值主张](value-proposition-zh.md) - 如何向客户证明您的定价合理性

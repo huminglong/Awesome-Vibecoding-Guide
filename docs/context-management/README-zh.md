@@ -423,14 +423,14 @@ git diff docs/plans/auth.md
 
 ### 支持此模式的工具
 
-| 工具 | 如何使用.md |
-|------|----------------|
-| **openspec** | 以.md格式生成提案 |
-| **droid CLI** | 计划模式 → .md → 执行模式 |
+| 工具            | 如何使用.md               |
+| --------------- | ------------------------- |
+| **openspec**    | 以.md格式生成提案         |
+| **droid CLI**   | 计划模式 → .md → 执行模式 |
 | **Claude Code** | 手动.md编写，计划模式输出 |
-| **Windsurf** | Cascade引用文档 |
-| **Zed** | 文件中的工作流程定义 |
-| **所有代理** | 可以读/写.md文件 |
+| **Windsurf**    | Cascade引用文档           |
+| **Zed**         | 文件中的工作流程定义      |
+| **所有代理**    | 可以读/写.md文件          |
 
 ---
 
@@ -574,13 +574,13 @@ project/
 
 **用于上下文节省的关键MCP：**
 
-| MCP | 通过以下方式节省上下文 |
-|-----|-----------------|
-| **Context7** | 检索框架/库文档而不是粘贴 |
-| **DevTools** | 读取浏览器控制台/网络而不是截图 |
-| **Database** | 直接查询数据库而不是手动导出 |
-| **API客户端** | 获取API数据而不是复制粘贴 |
-| **Filesystem** | 读取日志/文件而不是手动包含 |
+| MCP            | 通过以下方式节省上下文          |
+| -------------- | ------------------------------- |
+| **Context7**   | 检索框架/库文档而不是粘贴       |
+| **DevTools**   | 读取浏览器控制台/网络而不是截图 |
+| **Database**   | 直接查询数据库而不是手动导出    |
+| **API客户端**  | 获取API数据而不是复制粘贴       |
+| **Filesystem** | 读取日志/文件而不是手动包含     |
 
 **最佳实践：**
 - 使用MCP进行外部数据检索
@@ -1709,26 +1709,26 @@ MCP有开销；直接文件读取更适合项目文件。
 
 ### 文件位置指南
 
-| 信息类型 | 位置 | 示例 |
-|---------|------|------|
-| 功能计划 | `docs/plans/` | `auth-feature.md` |
-| 架构 | `docs/architecture/` | `api-design.md` |
-| 决策 | `docs/decisions/` | `001-database.md` |
-| 会话交接 | `docs/context/` | `2024-01-session.md` |
-| 操作指南 | `docs/guides/` | `deployment.md` |
-| API文档 | `docs/api/` | `endpoints.md` |
-| 活动任务 | `.tasks/` | `current-sprint.md` |
-| 持久指令 | 根目录 | `.cursorrules` |
+| 信息类型 | 位置                 | 示例                 |
+| -------- | -------------------- | -------------------- |
+| 功能计划 | `docs/plans/`        | `auth-feature.md`    |
+| 架构     | `docs/architecture/` | `api-design.md`      |
+| 决策     | `docs/decisions/`    | `001-database.md`    |
+| 会话交接 | `docs/context/`      | `2024-01-session.md` |
+| 操作指南 | `docs/guides/`       | `deployment.md`      |
+| API文档  | `docs/api/`          | `endpoints.md`       |
+| 活动任务 | `.tasks/`            | `current-sprint.md`  |
+| 持久指令 | 根目录               | `.cursorrules`       |
 
 ### 上下文预算规则
 
-| 使用情况 | 操作 |
-|---------|------|
-| 0-60% | ✅ 最佳 - 完整质量 |
-| 60-75% | ⚠️ 监控 - 考虑外部化 |
-| 75-85% | ⚠️ 警告 - 计划尽快重置 |
-| 85-95% | 🚨 危险 - 立即外部化 |
-| 95-100% | 🛑 关键 - 立即行动 |
+| 使用情况 | 操作                  |
+| -------- | --------------------- |
+| 0-60%    | ✅ 最佳 - 完整质量     |
+| 60-75%   | ⚠️ 监控 - 考虑外部化   |
+| 75-85%   | ⚠️ 警告 - 计划尽快重置 |
+| 85-95%   | 🚨 危险 - 立即外部化   |
+| 95-100%  | 🛑 关键 - 立即行动     |
 
 ### MCP决策树
 
@@ -1746,18 +1746,18 @@ MCP有开销；直接文件读取更适合项目文件。
 **在所有阶段使用：**
 
 **阶段1：计划**
-- [PRD和规范管理](../workflow/phase-1-planning.md)的上下文管理
-- [OpenSpec CLI](../development-tools/recommended-tools/openspec-cli.md)集成用于计划外部化
+- [PRD和规范管理](../workflow/phase-1-planning-zh.md)的上下文管理
+- [OpenSpec CLI](../development-tools/recommended-tools/openspec-cli-zh.md)集成用于计划外部化
 - 架构决策记录在[docs/decisions/](./#file-organization-for-context-management)中以供将来参考
 
 **阶段2：开发**
-- [Droid CLI](../development-tools/recommended-tools/droid-cli.md)计划/执行工作流程利用.md文件
-- 按[开发工作流程](../workflow/phase-2-development.md#feature-by-feature-implementation)的功能逐功能上下文管理
-- [Zed IDE](../development-tools/recommended-tools/zed.md)自动压缩和工作流程管理
+- [Droid CLI](../development-tools/recommended-tools/droid-cli-zh.md)计划/执行工作流程利用.md文件
+- 按[开发工作流程](../workflow/phase-2-development-zh.md#feature-by-feature-implementation)的功能逐功能上下文管理
+- [Zed IDE](../development-tools/recommended-tools/zed-zh.md)自动压缩和工作流程管理
 
 **阶段3：测试和调试**
-- [综合测试](../workflow/phase-3-testing-debugging.md)的调试上下文和错误跟踪
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md)外部化浏览器调试上下文
+- [综合测试](../workflow/phase-3-testing-debugging-zh.md)的调试上下文和错误跟踪
+- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp-zh.md)外部化浏览器调试上下文
 - 使用[docs/context/](./#session-handoffs)模式在调试会话之间进行会话交接
 
 **阶段4：部署**
@@ -1769,41 +1769,41 @@ MCP有开销；直接文件读取更适合项目文件。
 
 **Context7 MCP**
 - 外部化框架文档以减少上下文使用
-- 与[核心技术](../core-technologies.md)实施集成
-- 在架构讨论期间为[AI模型提供商](../ai-model-providers/README.md)节省上下文
+- 与[核心技术](../core-technologies-zh.md)实施集成
+- 在架构讨论期间为[AI模型提供商](../ai-model-providers/README-zh.md)节省上下文
 
 **Task Manager MCP**
 - 跨[工作流程阶段](../workflow/)的持久任务管理
 - 使用[任务分解模式](./#task-decomposition)进行上下文感知任务跟踪
-- 与[阶段2开发工作流程](../workflow/phase-2-development.md)集成
+- 与[阶段2开发工作流程](../workflow/phase-2-development-zh.md)集成
 
 **Sequential Thinking MCP**
 - 使用[认知增强技术](./#advanced-strategies)增强问题解决上下文
 - 在[docs/decisions/](./#file-organization-for-context-management)中保留战略思维
-- 与[计划工作流程](../workflow/phase-1-planning.md)集成
+- 与[计划工作流程](../workflow/phase-1-planning-zh.md)集成
 
 **MCP服务器上下文优化：**
-- [Context7 MCP](../development-tools/mcp-servers/context7-mcp.md) — 框架文档外部化
-- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp.md) — 浏览器调试上下文管理
-- [Task Manager MCP](../development-tools/mcp-servers/task-manager-mcp.md) — 持久工作流程上下文
-- [Sequential Thinking MCP](../development-tools/mcp-servers/sequential-thinking-mcp.md) — 问题解决上下文
-- [Shadcn MCP](../development-tools/mcp-servers/shadcn-mcp.md) — [阶段2开发](../workflow/phase-2-development.md)的UI组件上下文
+- [Context7 MCP](../development-tools/mcp-servers/context7-mcp-zh.md) — 框架文档外部化
+- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp-zh.md) — 浏览器调试上下文管理
+- [Task Manager MCP](../development-tools/mcp-servers/task-manager-mcp-zh.md) — 持久工作流程上下文
+- [Sequential Thinking MCP](../development-tools/mcp-servers/sequential-thinking-mcp-zh.md) — 问题解决上下文
+- [Shadcn MCP](../development-tools/mcp-servers/shadcn-mcp-zh.md) — [阶段2开发](../workflow/phase-2-development-zh.md)的UI组件上下文
 
 **业务策略集成：**
 - 使用上下文管理最佳实践进行[客户项目交接](./#client-project-considerations)
-- 通过高效上下文使用进行[自由职业工作流程优化](../introduction/README.md)
-- 通过减少AI令牌消耗进行[成本效益开发](../workflow/phase-0-vibecoder-preparation.md)
+- 通过高效上下文使用进行[自由职业工作流程优化](../introduction/README-zh.md)
+- 通过减少AI令牌消耗进行[成本效益开发](../workflow/phase-0-vibecoder-preparation-zh.md)
 
 **相关文档：**
 - 上下文管理集成的[学习路径](../../README.md#learning-path)
-- 上下文相关术语的[术语表](../glossary.md)
-- 文档中上下文管理的[贡献](../contributing.md)
+- 上下文相关术语的[术语表](../glossary-zh.md)
+- 文档中上下文管理的[贡献](../contributing-zh.md)
 
 ---
 
-**返回：** [顶级README](../../README.md)
+**返回：** [顶级README](../../README-zh.md)
 
 **相关：**
 - [开发工具](../development-tools/)
-- [核心技术](../core-technologies.md)
+- [核心技术](../core-technologies-zh.md)
 - [工作流程](../workflow/)

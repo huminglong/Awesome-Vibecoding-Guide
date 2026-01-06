@@ -121,8 +121,8 @@ AI提供商格局已经显著成熟，提供从预算友好到企业级的选项
 - 测试vibecoding工作流程
 
 **集成：**
-- 与[Claude Code CLI](../development-tools/recommended-tools/claude-code-cli.md)配合出色
-- 与[Droid CLI](../development-tools/recommended-tools/droid-cli.md)配合最高效，用于规划
+- 与[Claude Code CLI](../development-tools/recommended-tools/claude-code-cli-zh.md)配合出色
+- 与[Droid CLI](../development-tools/recommended-tools/droid-cli-zh.md)配合最高效，用于规划
 
 **何时升级**：如果您发现自己在多个会话中持续达到120次提示/5小时的限制
 

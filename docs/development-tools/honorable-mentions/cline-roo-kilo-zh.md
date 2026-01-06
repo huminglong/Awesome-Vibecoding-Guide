@@ -7,7 +7,7 @@ Cline、Roo Code 和 Kilo Code 是用于 AI 辅助编码的 VSCode 插件，其�
 - **无缝 VSCode 集成**：在现有编辑器中工作，无需切换上下文
 - **基于 GUI 的 Vibecoding**：用户友好的 AI 交互界面，非常适合偏好可视化工作流程的开发者
 - **快速开发节奏**：所有三个工具都在积极开发中，频繁更新和新功能
-- **提供商集成**：与 [GLM Coding Plan](../../ai-model-providers/glm-coding-plan.md) 和 [Synthetic.new](../../ai-model-providers/synthetic-new.md) 订阅无缝集成
+- **提供商集成**：与 [GLM Coding Plan](../../ai-model-providers/glm-coding-plan-zh.md) 和 [Synthetic.new](../../ai-model-providers/synthetic-new-zh.md) 订阅无缝集成
 - **插件生态系统**：在 AI 功能之外，还能访问 VSCode 广泛的插件库
 - **多个分支**：三个积极维护的变体为用户提供了基于特定功能或开发方向的选择
 
@@ -49,4 +49,4 @@ Cline、Roo Code 和 Kilo Code 是用于 AI 辅助编码的 VSCode 插件，其�
 - **Roo Code**: [github.com/RooVetGit/Roo-Cline](https://github.com/RooVetGit/Roo-Cline)
 - **Kilo Code**: [官方网站](https://kilocode.ai/)
 
-返回：[荣誉提及](README.md)
+返回：[荣誉提及](README-zh.md)

@@ -72,7 +72,7 @@
 - 示例和引用
 
 ## Astro i18n 设置
-[→ 另请参阅：核心技术 - Astro 框架](../core-technologies.md)
+[→ 另请参阅：核心技术 - Astro 框架](../core-technologies-zh.md)
 
 ### 项目结构
 
@@ -477,4 +477,4 @@ const locale = getLocale(Astro.url);
 
 记住，i18n 是一个持续的过程。定期审查和更新翻译，确保它们保持准确和相关。
 
-返回：[技术栈](../README.md)
+返回：[技术栈](README-zh.md)

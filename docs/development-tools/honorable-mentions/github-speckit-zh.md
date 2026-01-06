@@ -48,4 +48,4 @@ GitHub Speckit 是 GitHub 的原生规范工具，旨在帮助开发者创建全
 
 **官方资源**：[GitHub Speckit](https://github.com/)
 
-返回：[荣誉提及](README.md)
+返回：[荣誉提及](README-zh.md)

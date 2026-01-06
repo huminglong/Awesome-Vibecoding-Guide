@@ -878,9 +878,9 @@ function calculateDiscount(subtotal: number, discountCode?: string) {
 ---
 
 **相关文档：**
-- [基础](./foundations.md) → 核心提示原则
-- [任务特定模式](./task-specific-patterns.md) → 详细示例
-- [高级技术](./advanced-techniques.md) → 专家策略
-- [故障排除指南](../troubleshooting/README.md) → 当提示失败时
+- [基础](./foundations-zh.md) → 核心提示原则
+- [任务特定模式](./task-specific-patterns-zh.md) → 详细示例
+- [高级技术](./advanced-techniques-zh.md) → 专家策略
+- [故障排除指南](../troubleshooting/README-zh.md) → 当提示失败时
 
-**返回：** [提示指南主页](./README.md)
+**返回：** [提示指南主页](./README-zh.md)

@@ -7,7 +7,7 @@ Cline 和 Roo Code 是用于 AI 辅助编码的 VSCode 插件，其中 Roo Code 
 - **无缝 VSCode 集成**：在现有编辑器中工作，无需切换上下文
 - **基于 GUI 的 Vibecoding**：用户友好的 AI 交互界面，非常适合偏好可视化工作流程的开发者
 - **快速开发节奏**：两个工具都在积极开发中，频繁更新和新功能
-- **提供商集成**：与 [GLM Coding Plan](../../ai-model-providers/glm-coding-plan.md) 和 [Synthetic.new](../../ai-model-providers/synthetic-new.md) 订阅无缝集成
+- **提供商集成**：与 [GLM Coding Plan](../../ai-model-providers/glm-coding-plan-zh.md) 和 [Synthetic.new](../../ai-model-providers/synthetic-new-zh.md) 订阅无缝集成
 - **插件生态系统**：在 AI 功能之外，还能访问 VSCode 广泛的插件库
 - **多个选项**：两个积极维护的变体为用户提供了基于特定功能或开发方向的选择
 
@@ -28,7 +28,7 @@ Cline 和 Roo Code 是用于 AI 辅助编码的 VSCode 插件，其中 Roo Code 
 ## 谁应该考虑替代方案
 - **快节奏 vibecoding 实践者**：增加的复杂性可能会减慢受益于直接、简化交互的工作流程
 - **重度 MCP 工作流程**：如果您依赖不常见或自定义的 MCP 服务器，预期会遇到可靠性问题
-- **CLI 优先开发者**：如果您偏好命令行工具，GUI 开销可能会感觉不必要（考虑改用 [Kilo CLI](../recommended-tools/kilocode.md)）
+- **CLI 优先开发者**：如果您偏好命令行工具，GUI 开销可能会感觉不必要（考虑改用 [Kilo CLI](../honorable-mentions/kilocode-zh.md)）
 - **简单性追求者**：重视自己与 AI 之间最小抽象层的开发者
 
 ## 为什么我放弃了它们
@@ -45,10 +45,10 @@ Cline 和 Roo Code 是用于 AI 辅助编码的 VSCode 插件，其中 Roo Code 
 也就是说，这些工具在 vibecoding 行业中确实很受欢迎是有原因的——它们使 VSCode 内的 AI 辅助编码变得可访问，并且与主要提供商有强大的集成。它们只是不符合我对速度和简单性的特定工作流程偏好。
 
 ## 关于 Kilo Code 的说明
-Kilo Code 最初是 Cline 的分支，但随着其 CLI 工具的发布，已经显著分化。由于其双平台方法（VSCode + CLI）和智能模式、BYOK 支持等独特功能，现在被推荐为单独的工具。请参阅推荐工具部分中的 [Kilo Code](../recommended-tools/kilocode.md)。
+Kilo Code 最初是 Cline 的分支，但随着其 CLI 工具的发布，已经显著分化。由于其双平台方法（VSCode + CLI）和智能模式、BYOK 支持等独特功能，现在被推荐为单独的工具。请参阅荣誉提及部分中的 [Kilo Code](kilocode-zh.md)。
 
 ## 官方资源
 - **Cline**: [github.com/cline/cline](https://github.com/cline/cline)
 - **Roo Code**: [github.com/RooVetGit/Roo-Cline](https://github.com/RooVetGit/Roo-Cline)
 
-返回：[荣誉提及](README.md)
+返回：[荣誉提及](README-zh.md)

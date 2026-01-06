@@ -1014,9 +1014,9 @@ onclick="handleSubmit()"或重命名函数。'
 
 ## 相关资源
 
-- [故障排除指南](README.md) - 完整故障排除参考
+- [故障排除指南](README-zh.md) - 完整故障排除参考
 - [调试提示](../prompting/task-specific-patterns.md#debugging--error-resolution) - 有效调试通信的模板
-- [第3阶段：测试和调试](../workflow/phase-3-testing-debugging.md) - 工作流程集成
+- [第3阶段：测试和调试](../workflow/phase-3-testing-debugging-zh.md) - 工作流程集成
 - [DevTools MCP设置](../workflow/phase-2-development.md#prerequisites-environment-setup) - 可选工具辅助上下文收集
 
 ---

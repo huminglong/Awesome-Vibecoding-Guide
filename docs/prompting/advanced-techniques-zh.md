@@ -1212,8 +1212,8 @@ function mergeSortedArrays(arr1: number[], arr2: number[]): number[] {
 ---
 
 **下一步：**
-- [模板库](./template-library.md) → 现成的提示模板
-- [任务特定模式](./task-specific-patterns.md) → 专门提示
-- [基础](./foundations.md) → 核心原则回顾
+- [模板库](./template-library-zh.md) → 现成的提示模板
+- [任务特定模式](./task-specific-patterns-zh.md) → 专门提示
+- [基础](./foundations-zh.md) → 核心原则回顾
 
-**返回：** [提示指南主页](./README.md)
+**返回：** [提示指南主页](./README-zh.md)
