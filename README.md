@@ -1,5 +1,7 @@
 # The Comprehensive Vibecoding Guide
 
+[![中文版](https://img.shields.io/badge/语言-中文-blue.svg)](README-zh.md)
+
 ## From a practitioner, for practitioners
 
 A compendium drawn from real commercial projects and hundreds of thousands of lines of AI‑assisted code. Read it end‑to‑end or feed this repo to your AI agent for summaries and Q&A. Stars and watches appreciated! ⭐
