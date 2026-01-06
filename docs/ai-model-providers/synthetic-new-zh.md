@@ -98,3 +98,11 @@ Synthetic.new经常引入新模型，如MiniMax M2，提供对前沿模型的轻
 - 与[GLM Coding Plan](glm-coding-plan-zh.md)进行比较以进行成本分析
 - 考虑[免费替代方案](./honorable-mentions/README-zh.md)以应对预算约束
 - 查看[阶段0工具选择](../workflow/phase-0-vibecoder-preparation-zh.md)以了解升级时机
+
+**性能集成：**
+- [DevTools MCP](../development-tools/mcp-servers/devtools-mcp-zh.md) — 使用快速200 tokens/sec响应进行测试
+- [Sequential Thinking MCP](../development-tools/mcp-servers/sequential-thinking-mcp-zh.md) — 使用多个模型增强问题解决
+
+## 开始使用
+
+准备好尝试Synthetic.new了吗？[使用我的链接注册](https://synthetic.new/?referral=IDyp75aoQpW9YFt)以支持本指南，并开始使用隐私优先的AI模型访问。

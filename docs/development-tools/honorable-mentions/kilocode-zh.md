@@ -97,3 +97,23 @@ Kilo支持几乎每个主要LLM提供商：
 ### 企业解决方案
 - **团队计划**（$15/用户/月）：集中计费和团队管理
 - **企业计划**（自定义定价）：SSO、审计日志和专用支持
+
+## 官方资源
+
+- **网站**：[kilo.ai](https://kilo.ai/)
+- **文档**：[kilo.ai/docs](https://kilo.ai/docs)
+- **CLI工具**：[kilo.ai/cli](https://kilo.ai/cli)
+- **VSCode插件**：在VS Code市场中可用
+- **定价**：[kilo.ai/pricing](https://kilo.ai/pricing)
+
+## 底线
+
+Kilo Code是喜欢IDE原生工作流程和视觉反馈的开发人员的可靠选择。智能模式系统、灵活定价（免费/PAYG/BYOK）和双平台支持（VSCode + CLI）使其对于以下方面特别有价值：
+
+- 想要AI辅助而无需终端切换的VSCode用户
+- 测试不同提供商和模型的开发人员
+- 需要具有集中管理的企业功能的团队
+
+如果您主要是CLI用户或重度vibecoding工作流程，[Claude Code CLI](../recommended-tools/claude-code-cli-zh.md)或[Droid CLI](../recommended-tools/droid-cli-zh.md)可能更适合。但对于以IDE为中心的开发，Kilo值得认真考虑。
+
+返回：[荣誉提及](./README-zh.md) | [开发工具](../README-zh.md)

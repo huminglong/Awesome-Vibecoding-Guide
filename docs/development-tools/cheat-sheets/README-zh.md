@@ -97,3 +97,34 @@
 - 解释何时使用它
 - 包含具有现实值的示例
 - 按工作流程/类别组织
+
+## 快速访问
+
+**最常用的命令：**
+
+**Git：**
+```bash
+git status                     # 检查状态
+git add .                      # 暂存所有更改
+git commit -m "message"        # 使用消息提交
+git push                       # 推送到远程
+```
+
+**Cloudflare：**
+```bash
+npm run dev                    # 本地开发
+npm run build                  # 为生产构建
+npm run deploy                 # 部署到Cloudflare Pages
+```
+
+**Chrome DevTools：**
+```
+Cmd/Ctrl + Shift + C          # 检查元素
+Cmd/Ctrl + Shift + M          # 切换移动视图
+Cmd/Ctrl + Shift + P          # 命令面板
+F12                            # 打开DevTools
+```
+
+---
+
+**记住：** 这些是起点。根据您的特定项目和工作流程调整命令。

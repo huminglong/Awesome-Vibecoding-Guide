@@ -98,3 +98,37 @@
 
 如果您正在从其他开发环境迁移：
 1. 查看兼容性指南以了解集成要求
+2. 查看荣誉提及以获取免费替代方案
+3. 查看我放弃的工具以获取迁移经验
+
+## 工具选择和快速参考
+
+### [工具选择决策矩阵](./decision-matrix-zh.md)
+AI编码工具、提供商和IDE的综合比较，具有成本效益分析：
+- 编码代理比较（Qwen、GLM、Claude Code、Cursor）
+- AI提供商（Factory AI、Synthetic、GLM Direct、Anthropic、OpenAI）
+- IDE比较（Zed、VS Code、Cursor、Windsurf）
+- 不同预算的ROI场景
+- 从昂贵到预算工具的迁移指南
+
+### [备忘单](./cheat-sheets/README-zh.md)
+日常开发的快速参考指南：
+- **[Git命令](./cheat-sheets/git-commands-zh.md)** — 基本git工作流程和恢复
+- **[Cloudflare CLI](./cheat-sheets/cloudflare-cli-zh.md)** — 用于Pages、Workers、D1、KV、R2的Wrangler命令
+- **[常用提示](./cheat-sheets/common-prompts-zh.md)** — 用于功能、调试、重构的AI提示模板
+- **[调试命令](./cheat-sheets/debugging-commands-zh.md)** — Chrome DevTools、性能分析、网络检查
+
+## 支持和社区
+
+- 每个工具都有上面链接的详细文档
+- 兼容性指南用于故障排除集成问题
+- 通过各个工具存储库提供社区支持
+
+---
+
+**相关章节：**
+- [AI模型提供商](../ai-model-providers/README-zh.md) — LLM服务和提供商
+- [核心技术](../core-technologies-zh.md) — 推荐技术栈
+- [主文档](../README-zh.md) — 返回主文档
+
+*此工具包针对vibecoding工作流程进行了优化，平衡了功率、效率和成本效益。*
