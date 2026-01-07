@@ -98,6 +98,7 @@ preview_id = "your-preview-namespace-id"
 # 您可以有多个命名空间
 [[kv_namespaces]]
 binding = "SESSIONS"
+id = "another-namespace-id"
 ```
 
 ## 基本操作
@@ -595,7 +596,7 @@ async function addToCart(sessionId: string, item: CartItem, env: Env) {
 
   // 存储购物车7天
   await env.CACHE.put(cartKey, JSON.stringify(newCart), {
-    expirationTtl: 60480,
+    expirationTtl: 604800,
   });
 
   return newCart;

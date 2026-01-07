@@ -182,7 +182,7 @@ h1 {
 <body>
   <a href="#main" class="skip-link">跳转到主要内容</a>
   
-  <header>
+  <header role="banner">
     <nav aria-label="主导航">
       <ul>
         <li><a href="/">首页</a></li>
@@ -191,7 +191,7 @@ h1 {
     </nav>
   </header>
   
-  <main id="main">
+  <main id="main" role="main">
     <h1>页面标题</h1>
     <article>
       <h2>文章标题</h2>
@@ -199,12 +199,12 @@ h1 {
     </article>
   </main>
   
-  <aside aria-label="侧边栏">
+  <aside role="complementary" aria-label="侧边栏">
     <h2>相关内容</h2>
     <!-- 侧边栏内容 -->
   </aside>
   
-  <footer>
+  <footer role="contentinfo">
     <p>&copy; 2025 公司名称</p>
   </footer>
 </body>
