@@ -26,7 +26,7 @@
 
 | 症状                 | 可能原因             | 快速修复                | 详细信息                                                                         |
 | -------------------- | -------------------- | ----------------------- | -------------------------------------------------------------------------------- |
-| AI忘记以前的决策     | 上下文溢出>85%       | 外部化到.md文件         | [上下文管理](../context-management-zh.md/#the-60-85-rule)                        |
+| AI忘记以前的决策     | 上下文溢出>85%       | 外部化到.md文件         | [上下文管理](../context-management/README-zh.md/#the-60-85-rule)                        |
 | 生成无法编译的代码   | 缺少上下文或语法错误 | 提供编译器错误 + 上下文 | [错误恢复](#error-recovery-prompting)                                            |
 | 建议过时的模式       | 未加载项目上下文     | 创建.cursorrules文件    | [上下文感知提示](../prompting/advanced-techniques-zh.md#context-aware-prompting) |
 | 捏造不存在的API/函数 | 幻觉                 | 具体化，引用真实代码    | [具体性问题](#hallucination-apis-that-dont-exist)                                |

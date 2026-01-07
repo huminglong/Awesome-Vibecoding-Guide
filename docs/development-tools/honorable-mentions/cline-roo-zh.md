@@ -28,7 +28,7 @@ Cline 和 Roo Code 是用于 AI 辅助编码的 VSCode 插件，其中 Roo Code 
 ## 谁应该考虑替代方案
 - **快节奏 vibecoding 实践者**：增加的复杂性可能会减慢受益于直接、简化交互的工作流程
 - **重度 MCP 工作流程**：如果您依赖不常见或自定义的 MCP 服务器，预期会遇到可靠性问题
-- **CLI 优先开发者**：如果您偏好命令行工具，GUI 开销可能会感觉不必要（考虑改用 [Kilo CLI](../honorable-mentions/kilocode-zh.md)）
+- **CLI 优先开发者**：如果您偏好命令行工具，GUI 开销可能会感觉不必要（考虑改用 [Kilo CLI](kilocode-zh.md)）
 - **简单性追求者**：重视自己与 AI 之间最小抽象层的开发者
 
 ## 为什么我放弃了它们
